@@ -14,3 +14,14 @@ Key features:
 This project focuses on agent cognition and decision architecture rather than UI.
 
 
+## How to run
+
+1. Start your local LLM backend (Ollama).
+2. Install dependencies.
+3. Run:
+
+python main.py
+
+
+
+
