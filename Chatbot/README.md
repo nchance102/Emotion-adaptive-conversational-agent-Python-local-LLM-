@@ -1,3 +1,5 @@
+***Built entirely by a self-taught developer focused on agent cognition and decision systems.***
+
 Leonardo(Leo) — Emotion-Adaptive Conversational Agent
 
 Leo is a Python-based conversational agent that tracks a user’s emotional state across multiple turns and selects a complementary emotional response strategy rather than simply mirroring sentiment.
@@ -36,6 +38,7 @@ Backend
 Python
 Ollama (local LLM)
 Modular agent architecture (memory, emotions, decision policy, actions)
+
 
 
 
