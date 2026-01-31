@@ -1,26 +1,41 @@
-## Leo – Emotion-adaptive conversational agent
+Leonardo(Leo) — Emotion-Adaptive Conversational Agent
 
-Leo is a Python-based conversational agent that models user emotion across a rolling
-conversation window and selects complementary emotional responses rather than mirroring.
+Leo is a Python-based conversational agent that tracks a user’s emotional state across multiple turns and selects a complementary emotional response strategy rather than simply mirroring sentiment.
+This project focuses on agent cognition and decision architecture, not UI.
 
-Key features:
-- Rolling emotional trend modeling over recent turns
-- Complementary emotional stance selection for the agent
-- Action selection using a scored policy layer
-- Instruction-driven LLM prompting
-- Persistent memory and conversation state
-- Local LLM backend (Ollama)
+What Leo demonstrates
+Rolling emotional trend modeling over recent conversation turns
+Separate modeling of user emotion and agent emotional stance
+Complementary emotional response selection
+Scored action-selection policy layer
+Instruction-driven LLM prompting
+Persistent memory and conversation state
+Local LLM backend (Ollama)
 
-This project focuses on agent cognition and decision architecture rather than UI.
+Why this project exists
+Most chatbots respond only to the current message.
+Leo maintains emotional context across a conversation and adapts how it responds as the user’s emotional trajectory changes.
 
+Quick demo
 
-## How to run
+Requirements
+Python 3.10+
+Ollama running locally
 
-1. Start your local LLM backend (Ollama).
-2. Install dependencies.
-3. Run:
-
+Run
 python main.py
+Then chat directly with Leo in the terminal.
+
+Try:
+“I’ve been really stressed with school lately.”
+“It just feels like everything is piling up.”
+
+Observe how Leo’s emotional stance and response strategy evolve across turns.
+
+Backend
+Python
+Ollama (local LLM)
+Modular agent architecture (memory, emotions, decision policy, actions)
 
 
 
